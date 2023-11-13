@@ -31,6 +31,11 @@ html, body{
 	border-radius: 16px;
 	text-align: center;
 	text-transform: uppercase;
+	transition: 0.25s;
+}
+#primary #container a:hover{
+	filter: drop-shadow(0px 4px 2px rgb(0, 0, 0, 0.5));
+	transform: translateY(-4px);
 }
 #primary #hero{
 	height: 100%;
@@ -51,6 +56,11 @@ html, body{
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	transition: 0.2s;
+}
+#primary #premiere:hover{
+	filter: drop-shadow(0px 4px 2px rgb(0, 0, 0, 0.5));
+	transform: translateY(-4px);
 }
 #primary #premiere img{
 	width: 100%;
@@ -89,7 +99,12 @@ h1 {
 	border-radius: 16px;
 	color: white;
 	text-decoration: none;
-	margin: 5px;
+	margin: 8px;
+	transition: 0.2s;
+}
+#affiche .item:hover{
+	filter: drop-shadow(0px 4px 2px rgb(0, 0, 0, 0.5));
+	transform: translateY(-4px);
 }
 #affiche .item img{
 	width: 100%;
