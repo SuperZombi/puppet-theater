@@ -1,0 +1,139 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#primary{
+	height: 80vh;
+	background: #f37d7d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#primary #container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-left: 10%;
+	position: absolute;
+	left: 0;
+}
+#primary #container img{
+	min-height: 150px;
+}
+#primary #container a{
+	padding: 10px 0;
+	min-width: 160px;
+	background: #fcff00;
+	text-decoration: none;
+	color: black;
+	border-radius: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#primary #hero{
+	height: 100%;
+}
+#primary #hero img{
+	height: 100%;
+}
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+}
+
+#афіша{
+	background: #e76b6b;
+	color: white;
+}
+#affiche{
+	white-space: nowrap;
+	overflow: auto;
+	margin: 0 5px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+#affiche .item{
+	background: #f89d54;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 240px;
+	padding: 10px;
+	box-sizing: border-box;
+	gap: 10px;
+	border-radius: 16px;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+}
+#affiche .item img{
+	width: 100%;
+	border-radius: 6px;
+	object-fit: cover;
+	height: 300px;
+}
+#affiche .item span{
+	font-size: 14pt;
+}
+
+#новини{
+	background: #f89d54;
+	color: white;
+}
+#news{
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+	padding-bottom: 1em;
+}
+#news article{
+	background: #fcff00;
+	border-radius: 8px;
+	padding: 10px;
+	width: 40%;
+	box-sizing: border-box;
+	color: black;
+}
+#news article time{
+	font-family: monospace;
+	color: grey;
+}
+#news article a{
+	color: grey;
+	float: right;
+	text-decoration: none;
+	font-style: italic;
+}
+#news article a:after{
+	content: "...";
+}
+#news article a:hover{
+	text-decoration: underline;
+}
+#news article p{
+	font-size: 14pt;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+#про-театр{
+	background: #fcff00;
+	padding-bottom: 1em;
+	color: #f37d7d;
+}
+#about{
+	padding: 0 10px;
+}
+#about p{
+	text-indent: 2em;
+	font-size: 14pt;
+	margin: 0;
+	line-height: 18pt;
+}
