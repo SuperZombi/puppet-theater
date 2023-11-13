@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ляльковий театр Вогник</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+<style>
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#primary{
+	height: 80vh;
+	background: #f37d7d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#primary #container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-left: 10%;
+	position: absolute;
+	left: 0;
+}
+#primary #container img{
+	min-height: 150px;
+}
+#primary #container a{
+	padding: 10px 0;
+	min-width: 160px;
+	background: #fcff00;
+	text-decoration: none;
+	color: black;
+	border-radius: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#primary #hero{
+	height: 100%;
+}
+#primary #hero img{
+	height: 100%;
+}
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+}
+
+#афіша{
+	background: #f89d54;
+	color: white;
+}
+#affiche{
+	white-space: nowrap;
+	overflow: auto;
+	margin: 0 5px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+#affiche .item{
+	background: #8de78d;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 240px;
+	padding: 10px;
+	box-sizing: border-box;
+	gap: 10px;
+	border-radius: 16px;
+	color: black;
+	text-decoration: none;
+	margin: 5px;
+}
+#affiche .item img{
+	width: 100%;
+	border-radius: 6px;
+}
+#affiche .item span{
+	font-size: 14pt;
+}
+
+#новини{
+	background: #8de78d;
+	color: white;
+}
+
+#news{
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+	padding-bottom: 1em;
+}
+#news article{
+	background: #f89d54;
+	border-radius: 8px;
+	padding: 10px;
+	width: 40%;
+	box-sizing: border-box;
+}
+#news article time{
+	font-family: monospace;
+}
+#news article a{
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+}
+#news article a:after{
+	content: "...";
+}
+#news article p{
+	font-size: 14pt;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+</style>
+</head>
+<body>
+	<div id="primary">
+		<div id="container">
+			<img src="logo_old.svg">
+			<a href="#афіша">Афіша</a>
+			<a href="#новини">Новини</a>
+			<a href="#про-театр">Про театр</a>
+		</div>
+		<div id="hero">
+			<img src="hero_old.svg">
+		</div>
+	</div>
+	<div id="афіша">
+		<h1>Афіша</h1>
+		<div id="affiche">
+			<a class="item" href="#">
+				<img src="affiche.jpg">
+				<span>Назва вистави</span>
+			</a>
+			<a class="item" href="#">
+				<img src="affiche.jpg">
+				<span>Назва вистави</span>
+			</a>
+			<a class="item" href="#">
+				<img src="affiche.jpg">
+				<span>Назва вистави</span>
+			</a>
+			<a class="item" href="#">
+				<img src="affiche.jpg">
+				<span>Назва вистави</span>
+			</a>
+		</div>
+	</div>
+	<div id="новини">
+		<h1>Новини</h1>
+		<div id="news">
+			<article>
+				<time>11.11.2023</time>
+				<p>Повернення квитків 11.11</p>
+				<a href="#">читати далі</a>
+			</article>
+			<article>
+				<time>10.11.2023</time>
+				<p>Знижки на квитки 11.11</p>
+				<a href="#">читати далі</a>
+			</article>
+			<article>
+				<time>01.11.2023</time>
+				<p>Прем'єра нового листопадного сезону!</p>
+				<a href="#">читати далі</a>
+			</article>
+		</div>
+	</div>
+	<div id="про-театр">
+		<h1>Про наш театр</h1>
+		
+	</div>
+</body>
+</html>
